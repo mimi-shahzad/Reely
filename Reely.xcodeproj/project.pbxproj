@@ -3,29 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		882DD92A24F1D2070011BFB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DD92924F1D2070011BFB1 /* AppDelegate.swift */; };
 		882DD92C24F1D2070011BFB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DD92B24F1D2070011BFB1 /* SceneDelegate.swift */; };
-		882DD92E24F1D2070011BFB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DD92D24F1D2070011BFB1 /* ViewController.swift */; };
+		882DD92E24F1D2070011BFB1 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DD92D24F1D2070011BFB1 /* FilmViewController.swift */; };
 		882DD93124F1D2070011BFB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882DD92F24F1D2070011BFB1 /* Main.storyboard */; };
 		882DD93424F1D2070011BFB1 /* Reely.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 882DD93224F1D2070011BFB1 /* Reely.xcdatamodeld */; };
 		882DD93624F1D20C0011BFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882DD93524F1D20C0011BFB1 /* Assets.xcassets */; };
 		882DD93924F1D20C0011BFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882DD93724F1D20C0011BFB1 /* LaunchScreen.storyboard */; };
+		882DD94324F1D7950011BFB1 /* FilmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DD94224F1D7950011BFB1 /* FilmTableViewCell.swift */; };
+		882DD94524F1D8DF0011BFB1 /* FilmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DD94424F1D8DF0011BFB1 /* FilmManager.swift */; };
+		882DD94924F1D93C0011BFB1 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DD94824F1D93C0011BFB1 /* Film.swift */; };
+		882DD96124F1DC8B0011BFB1 /* UISearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DD96024F1DC8B0011BFB1 /* UISearchBarDelegate.swift */; };
+		882DD96524F1DEAE0011BFB1 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DD96424F1DEAE0011BFB1 /* UIFontExtension.swift */; };
+		882DD96724F1DEEA0011BFB1 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882DD96624F1DEEA0011BFB1 /* UIImageExtension.swift */; };
+		8889495D250825260099FF2F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8889495C250825260099FF2F /* README.md */; };
+		88E48B6D24F565FF00340DC8 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E48B6C24F565FF00340DC8 /* Array.swift */; };
+		88E7036C24F45022006C941A /* SearchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7036B24F45022006C941A /* SearchBarCell.swift */; };
+		88FB393424F32C520054AFF8 /* FilmSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB393324F32C520054AFF8 /* FilmSearchController.swift */; };
+		88FB393624F336460054AFF8 /* UISearchResultsUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB393524F336460054AFF8 /* UISearchResultsUpdating.swift */; };
+		FEFC14833DE422387602270D /* Pods_Reely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3134F5495958A0A38AAF367 /* Pods_Reely.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		882DD92624F1D2070011BFB1 /* Reely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		882DD92924F1D2070011BFB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		882DD92B24F1D2070011BFB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		882DD92D24F1D2070011BFB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		882DD92D24F1D2070011BFB1 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		882DD93024F1D2070011BFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		882DD93324F1D2070011BFB1 /* Reely.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reely.xcdatamodel; sourceTree = "<group>"; };
 		882DD93524F1D20C0011BFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		882DD93824F1D20C0011BFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		882DD93A24F1D20C0011BFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882DD94224F1D7950011BFB1 /* FilmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTableViewCell.swift; sourceTree = "<group>"; };
+		882DD94424F1D8DF0011BFB1 /* FilmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmManager.swift; sourceTree = "<group>"; };
+		882DD94824F1D93C0011BFB1 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		882DD94F24F1DA8C0011BFB1 /* Archer-SembdItal-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-SembdItal-Pro.otf"; sourceTree = "<group>"; };
+		882DD95024F1DA8D0011BFB1 /* Archer-Bold-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-Bold-Pro.otf"; sourceTree = "<group>"; };
+		882DD95124F1DA8D0011BFB1 /* Archer-ThinItal-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-ThinItal-Pro.otf"; sourceTree = "<group>"; };
+		882DD95224F1DA8D0011BFB1 /* Archer-Book-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-Book-Pro.otf"; sourceTree = "<group>"; };
+		882DD95324F1DA8D0011BFB1 /* Archer-XLightItal-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-XLightItal-Pro.otf"; sourceTree = "<group>"; };
+		882DD95424F1DA8D0011BFB1 /* Archer-BoldItal-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-BoldItal-Pro.otf"; sourceTree = "<group>"; };
+		882DD95524F1DA8D0011BFB1 /* Archer-Light-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-Light-Pro.otf"; sourceTree = "<group>"; };
+		882DD95624F1DA8D0011BFB1 /* Archer-LightItal-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-LightItal-Pro.otf"; sourceTree = "<group>"; };
+		882DD95724F1DA8D0011BFB1 /* Archer-Medium-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-Medium-Pro.otf"; sourceTree = "<group>"; };
+		882DD95824F1DA8E0011BFB1 /* Archer-MediumItal-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-MediumItal-Pro.otf"; sourceTree = "<group>"; };
+		882DD95924F1DA8E0011BFB1 /* Archer-XLight-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-XLight-Pro.otf"; sourceTree = "<group>"; };
+		882DD95A24F1DA8E0011BFB1 /* Archer-Hairline-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-Hairline-Pro.otf"; sourceTree = "<group>"; };
+		882DD95B24F1DA8E0011BFB1 /* Archer-Thin-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-Thin-Pro.otf"; sourceTree = "<group>"; };
+		882DD95C24F1DA8E0011BFB1 /* Archer-Semibold-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-Semibold-Pro.otf"; sourceTree = "<group>"; };
+		882DD95D24F1DA8E0011BFB1 /* Archer-HairlineItal-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-HairlineItal-Pro.otf"; sourceTree = "<group>"; };
+		882DD95E24F1DA8E0011BFB1 /* Archer-BookItal-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archer-BookItal-Pro.otf"; sourceTree = "<group>"; };
+		882DD96024F1DC8B0011BFB1 /* UISearchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchBarDelegate.swift; sourceTree = "<group>"; };
+		882DD96424F1DEAE0011BFB1 /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		882DD96624F1DEEA0011BFB1 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		8889495C250825260099FF2F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		88E48B6C24F565FF00340DC8 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		88E7036B24F45022006C941A /* SearchBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarCell.swift; sourceTree = "<group>"; };
+		88FB393324F32C520054AFF8 /* FilmSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmSearchController.swift; sourceTree = "<group>"; };
+		88FB393524F336460054AFF8 /* UISearchResultsUpdating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchResultsUpdating.swift; sourceTree = "<group>"; };
+		ABA9C744CFF6AB4C0C362AEA /* Pods-Reely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reely.release.xcconfig"; path = "Target Support Files/Pods-Reely/Pods-Reely.release.xcconfig"; sourceTree = "<group>"; };
+		B3134F5495958A0A38AAF367 /* Pods_Reely.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reely.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F37942E2FC5B8DFDC64639 /* Pods-Reely.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reely.debug.xcconfig"; path = "Target Support Files/Pods-Reely/Pods-Reely.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +75,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEFC14833DE422387602270D /* Pods_Reely.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180E1FCEC0E36AF3B1F7246E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8F37942E2FC5B8DFDC64639 /* Pods-Reely.debug.xcconfig */,
+				ABA9C744CFF6AB4C0C362AEA /* Pods-Reely.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		71ABA6B84B898F211CDA15B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3134F5495958A0A38AAF367 /* Pods_Reely.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		882DD91D24F1D2070011BFB1 = {
 			isa = PBXGroup;
 			children = (
 				882DD92824F1D2070011BFB1 /* Reely */,
 				882DD92724F1D2070011BFB1 /* Products */,
+				180E1FCEC0E36AF3B1F7246E /* Pods */,
+				71ABA6B84B898F211CDA15B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +120,91 @@
 		882DD92824F1D2070011BFB1 /* Reely */ = {
 			isa = PBXGroup;
 			children = (
+				882DD94E24F1DA750011BFB1 /* fonts */,
 				882DD92924F1D2070011BFB1 /* AppDelegate.swift */,
 				882DD92B24F1D2070011BFB1 /* SceneDelegate.swift */,
-				882DD92D24F1D2070011BFB1 /* ViewController.swift */,
-				882DD92F24F1D2070011BFB1 /* Main.storyboard */,
+				882DD94C24F1DA310011BFB1 /* Controller */,
+				882DD94D24F1DA3D0011BFB1 /* Manager */,
+				882DD94B24F1D9590011BFB1 /* View */,
 				882DD93524F1D20C0011BFB1 /* Assets.xcassets */,
-				882DD93724F1D20C0011BFB1 /* LaunchScreen.storyboard */,
+				882DD95F24F1DC570011BFB1 /* Extensions */,
+				882DD94A24F1D9470011BFB1 /* Model */,
 				882DD93A24F1D20C0011BFB1 /* Info.plist */,
-				882DD93224F1D2070011BFB1 /* Reely.xcdatamodeld */,
+				8889495C250825260099FF2F /* README.md */,
 			);
 			path = Reely;
+			sourceTree = "<group>";
+		};
+		882DD94A24F1D9470011BFB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				882DD93224F1D2070011BFB1 /* Reely.xcdatamodeld */,
+				882DD94224F1D7950011BFB1 /* FilmTableViewCell.swift */,
+				882DD94824F1D93C0011BFB1 /* Film.swift */,
+				88E7036B24F45022006C941A /* SearchBarCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		882DD94B24F1D9590011BFB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				882DD92F24F1D2070011BFB1 /* Main.storyboard */,
+				882DD93724F1D20C0011BFB1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		882DD94C24F1DA310011BFB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				882DD92D24F1D2070011BFB1 /* FilmViewController.swift */,
+				88FB393324F32C520054AFF8 /* FilmSearchController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		882DD94D24F1DA3D0011BFB1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				882DD94424F1D8DF0011BFB1 /* FilmManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		882DD94E24F1DA750011BFB1 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				882DD95024F1DA8D0011BFB1 /* Archer-Bold-Pro.otf */,
+				882DD95424F1DA8D0011BFB1 /* Archer-BoldItal-Pro.otf */,
+				882DD95224F1DA8D0011BFB1 /* Archer-Book-Pro.otf */,
+				882DD95E24F1DA8E0011BFB1 /* Archer-BookItal-Pro.otf */,
+				882DD95A24F1DA8E0011BFB1 /* Archer-Hairline-Pro.otf */,
+				882DD95D24F1DA8E0011BFB1 /* Archer-HairlineItal-Pro.otf */,
+				882DD95524F1DA8D0011BFB1 /* Archer-Light-Pro.otf */,
+				882DD95624F1DA8D0011BFB1 /* Archer-LightItal-Pro.otf */,
+				882DD95724F1DA8D0011BFB1 /* Archer-Medium-Pro.otf */,
+				882DD95824F1DA8E0011BFB1 /* Archer-MediumItal-Pro.otf */,
+				882DD94F24F1DA8C0011BFB1 /* Archer-SembdItal-Pro.otf */,
+				882DD95C24F1DA8E0011BFB1 /* Archer-Semibold-Pro.otf */,
+				882DD95B24F1DA8E0011BFB1 /* Archer-Thin-Pro.otf */,
+				882DD95124F1DA8D0011BFB1 /* Archer-ThinItal-Pro.otf */,
+				882DD95924F1DA8E0011BFB1 /* Archer-XLight-Pro.otf */,
+				882DD95324F1DA8D0011BFB1 /* Archer-XLightItal-Pro.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		882DD95F24F1DC570011BFB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				882DD96024F1DC8B0011BFB1 /* UISearchBarDelegate.swift */,
+				882DD96424F1DEAE0011BFB1 /* UIFontExtension.swift */,
+				882DD96624F1DEEA0011BFB1 /* UIImageExtension.swift */,
+				88FB393524F336460054AFF8 /* UISearchResultsUpdating.swift */,
+				88E48B6C24F565FF00340DC8 /* Array.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 882DD93D24F1D20C0011BFB1 /* Build configuration list for PBXNativeTarget "Reely" */;
 			buildPhases = (
+				3E15CA06FBF62ED8C223A469 /* [CP] Check Pods Manifest.lock */,
 				882DD92224F1D2070011BFB1 /* Sources */,
 				882DD92324F1D2070011BFB1 /* Frameworks */,
 				882DD92424F1D2070011BFB1 /* Resources */,
+				680E5634C045A7352ED8D53D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,21 +269,74 @@
 			files = (
 				882DD93924F1D20C0011BFB1 /* LaunchScreen.storyboard in Resources */,
 				882DD93624F1D20C0011BFB1 /* Assets.xcassets in Resources */,
+				8889495D250825260099FF2F /* README.md in Resources */,
 				882DD93124F1D2070011BFB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E15CA06FBF62ED8C223A469 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reely-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		680E5634C045A7352ED8D53D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reely/Pods-Reely-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reely/Pods-Reely-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reely/Pods-Reely-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		882DD92224F1D2070011BFB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				882DD92E24F1D2070011BFB1 /* ViewController.swift in Sources */,
+				88E7036C24F45022006C941A /* SearchBarCell.swift in Sources */,
+				882DD96124F1DC8B0011BFB1 /* UISearchBarDelegate.swift in Sources */,
+				88FB393624F336460054AFF8 /* UISearchResultsUpdating.swift in Sources */,
+				882DD92E24F1D2070011BFB1 /* FilmViewController.swift in Sources */,
+				882DD94524F1D8DF0011BFB1 /* FilmManager.swift in Sources */,
+				882DD96724F1DEEA0011BFB1 /* UIImageExtension.swift in Sources */,
 				882DD92A24F1D2070011BFB1 /* AppDelegate.swift in Sources */,
 				882DD92C24F1D2070011BFB1 /* SceneDelegate.swift in Sources */,
+				88FB393424F32C520054AFF8 /* FilmSearchController.swift in Sources */,
+				88E48B6D24F565FF00340DC8 /* Array.swift in Sources */,
+				882DD96524F1DEAE0011BFB1 /* UIFontExtension.swift in Sources */,
 				882DD93424F1D2070011BFB1 /* Reely.xcdatamodeld in Sources */,
+				882DD94324F1D7950011BFB1 /* FilmTableViewCell.swift in Sources */,
+				882DD94924F1D93C0011BFB1 /* Film.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,13 +412,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -274,18 +467,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		882DD93E24F1D20C0011BFB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F37942E2FC5B8DFDC64639 /* Pods-Reely.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +499,7 @@
 		};
 		882DD93F24F1D20C0011BFB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA9C744CFF6AB4C0C362AEA /* Pods-Reely.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
